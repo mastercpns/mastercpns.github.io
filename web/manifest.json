@@ -1,0 +1,19 @@
+{
+  "name": "Master CPNS",
+  "short_name": "Master CPNS",
+  "description": "Materi dan Latihan Soal CPNS 2026 Lengkap — Belajar Sampai Jadi Master.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#12395b",
+  "theme_color": "#12395b",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

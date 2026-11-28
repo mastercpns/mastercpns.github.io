@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Master CPNS</title>
+<meta name="theme-color" content="#12395b">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Master CPNS">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header class="appbar">
+    <img class="logo" src="logo.png" alt="Logo Latihan TIU">
+    <div class="title">
+      <h1>Master CPNS</h1>
+      <p id="subtitle">Tes Intelegensi Umum &middot; SKD 2026 &middot; by Ardico Rianto</p>
+    </div>
+    <div class="timer hidden" id="timer">30:00</div>
+  </header>
+
+  <main id="main">
+    <!-- ============ OTENTIKASI (Masuk / Daftar / Lupa Password) ============ -->
+    <section class="screen" id="screen-auth">
+      <div class="auth-card">
+        <div class="auth-hero">
+          <img class="logo-big" src="logo.png" alt="Logo Master CPNS">
+          <h2>Master CPNS</h2>
+          <p class="auth-by">by Ardico Rianto</p>
+          <p class="auth-sub">Latihan soal SKD CPNS 2026 &middot; 1.080 soal &middot; 21 sub-materi</p>
+        </div>
+        <div class="auth-tabs">
+          <button type="button" id="auth-tab-login" class="on">Masuk</button>
+          <button type="button" id="auth-tab-register">Daftar</button>
+        </div>
+
+        <!-- Tab Masuk -->
+        <div id="auth-panel-login">
+          <label class="auth-label" for="login-email">Email</label>
+          <input class="auth-input" type="email" id="login-email" placeholder="nama@gmail.com" autocomplete="email" inputmode="email">
+          <label class="auth-label" for="login-password">Password</label>
+          <input class="auth-input" type="password" id="login-password" placeholder="Password" autocomplete="current-password">
+          <div class="auth-msg" id="login-msg" style="display:none"></div>
+          <button class="btn auth-btn" type="button" id="btn-login">Masuk</button>
+          <button class="auth-link" type="button" id="link-forgot">Lupa Password?</button>
+        </div>
+
+        <!-- Tab Daftar -->
+        <div id="auth-panel-register" style="display:none">
+          <div class="auth-steps">
+            <h3>Cara Beli</h3>
+            <ol>
+              <li>Isi email dan password (minimal 6 karakter) di bawah ini.</li>
+              <li>Bayar <b>Rp59.000</b> dengan memindai kode QRIS di bawah &mdash; masukkan nominal secara manual sesuai harga.</li>
+              <li>Unggah foto bukti transfer, lalu ketuk <b>&ldquo;Saya Sudah Bayar&rdquo;</b>.</li>
+              <li>Tunggu konfirmasi maks. 10 menit, lalu ketuk <b>&ldquo;Daftar&rdquo;</b> dan mulai belajar.</li>
+            </ol>
+            <p class="auth-note">Punya kode redeem? Masukkan di kolom Kode Promo sebelum membayar.</p>
+          </div>
+          <p class="auth-note" id="reg-upgrade-note" style="display:none">Akun trial &mdash; bayar Rp59.000 untuk lanjut tanpa batas waktu. Progresmu tetap tersimpan.</p>
+          <label class="auth-label" for="reg-email">Email</label>
+          <input class="auth-input" type="email" id="reg-email" placeholder="nama@gmail.com" autocomplete="email" inputmode="email">
+          <label class="auth-label" for="reg-password">Password (min. 6 karakter)</label>
+          <input class="auth-input" type="password" id="reg-password" placeholder="Password" autocomplete="new-password">
+          <label class="auth-label" for="reg-password2">Konfirmasi Password</label>
+          <input class="auth-input" type="password" id="reg-password2" placeholder="Ulangi password" autocomplete="new-password">
+          <label class="auth-label" for="reg-promo">Kode Promo (opsional)</label>
+          <div class="auth-promo-row">
+            <input class="auth-input" type="text" id="reg-promo" placeholder="Masukkan kode redeem" autocapitalize="characters" autocomplete="off">
+            <button class="btn secondary auth-promo-btn" type="button" id="btn-promo">Pakai Kode</button>
+          </div>
+          <div class="auth-price" id="reg-price"><s>Rp99.000</s> <b>Rp59.000</b></div>
+          <div class="auth-msg" id="reg-msg" style="display:none"></div>
+
+          <div class="auth-pay" id="reg-pay">
+            <div id="reg-pay-qr">
+              <img class="auth-qr" src="qris.png" alt="Kode QR pembayaran QRIS">
+              <p class="auth-qr-cap">Atas Nama: Rianto</p>
+              <p class="auth-note">Periksa kembali nominal sebelum mentransfer. Masukkan nominal secara manual sesuai harga di atas &mdash; angkanya tidak muncul otomatis saat memindai QR. Pembayaran yang kurang dari nominal tidak akan diproses, dan kelebihan pembayaran tidak akan dikembalikan, kecuali ada pengecualian khusus.</p>
+            </div>
+            <p class="auth-note" id="reg-pay-free" style="display:none">Tidak perlu membayar &mdash; kode GRATIS10 membuat pendaftaranmu gratis.</p>
+            <div id="reg-pay-proof">
+              <label class="auth-label" for="reg-proof">Upload Bukti Transfer (foto/screenshot, maks. 2 MB)</label>
+              <input class="auth-proof-input" type="file" id="reg-proof" accept="image/*">
+              <img id="reg-proof-preview" class="auth-proof-preview" style="display:none" alt="Pratinjau bukti transfer">
+              <p class="auth-note" id="reg-proof-note" style="display:none"></p>
+            </div>
+            <button class="btn auth-btn" type="button" id="btn-declare">Saya Sudah Bayar</button>
+            <p class="auth-status" id="reg-pay-status"></p>
+            <div class="auth-active" id="reg-pay-active" style="display:none">
+              <div class="auth-active-check" aria-hidden="true">&#10003;</div>
+              <div class="auth-active-title" id="reg-active-title">Pembayaran Berhasil</div>
+              <p class="auth-active-sub" id="reg-active-sub">Akun Anda Sudah Aktif</p>
+              <p class="auth-active-note">Pembayaran Anda sudah dikonfirmasi. Lanjut daftar, lalu mulai belajar.</p>
+              <button class="btn auth-btn auth-active-btn" type="button" id="btn-active-continue">Lanjut Daftar &amp; Mulai Belajar</button>
+            </div>
+            <button class="btn ghost auth-btn" type="button" id="btn-check-pay">Cek Status Pembayaran</button>
+          </div>
+
+          <!-- Trial gratis 1 hari: tombol TERPISAH dari Daftar & SELALU AKTIF
+               (tidak menunggu status bayar). Memakai email + password yang
+               sudah diisi di form Daftar di atas. -->
+          <div class="auth-trial" id="reg-trial">
+            <p class="auth-trial-title">Belum yakin? Coba dulu gratis.</p>
+            <p class="auth-note">Trial gratis 1 hari &mdash; akses penuh semua jalur (TIU, TWK, TKP), level, bos, materi, dan Simulasi SKD. Pakai email &amp; password yang sudah kamu isi di atas. Satu trial per email dan satu trial per perangkat. Setelah 1 hari, bayar Rp59.000 untuk lanjut; progresmu tetap tersimpan.</p>
+            <button class="btn secondary auth-btn" type="button" id="btn-trial">Coba Gratis 1 Hari</button>
+          </div>
+
+          <div style="height:12px"></div>
+          <button class="btn auth-btn" type="button" id="btn-register" disabled>Daftar</button>
+          <p class="auth-note" id="reg-register-note">Selesaikan pembayaran dulu, lalu tunggu konfirmasi maks. 10 menit.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LUPA PASSWORD ============ -->
+    <section class="screen" id="screen-forgot">
+      <div class="auth-card">
+        <div class="auth-hero">
+          <img class="logo-big" src="logo.png" alt="Logo Master CPNS">
+          <h2>Lupa Password</h2>
+          <p class="auth-sub">Minta kode reset, lalu ubah passwordmu.</p>
+        </div>
+        <label class="auth-label" for="forgot-email">Email</label>
+        <input class="auth-input" type="email" id="forgot-email" placeholder="nama@gmail.com" autocomplete="email" inputmode="email">
+        <div class="auth-msg" id="forgot-msg" style="display:none"></div>
+        <button class="btn auth-btn" type="button" id="btn-forgot-request">Minta Kode Reset</button>
+        <div id="forgot-reset-box" style="display:none">
+          <p class="auth-note">Kode reset akan dikirim admin lewat DM Instagram @ardicorianto &mdash; minta kodenya ke sana.</p>
+          <label class="auth-label" for="forgot-code">Kode Reset (6 digit)</label>
+          <input class="auth-input" type="text" id="forgot-code" placeholder="123456" inputmode="numeric" maxlength="6" autocomplete="one-time-code">
+          <label class="auth-label" for="forgot-newpass">Password Baru (min. 6 karakter)</label>
+          <input class="auth-input" type="password" id="forgot-newpass" placeholder="Password baru" autocomplete="new-password">
+          <button class="btn auth-btn" type="button" id="btn-forgot-reset">Ubah Password</button>
+        </div>
+        <button class="auth-link" type="button" id="btn-forgot-back">Kembali ke Masuk</button>
+      </div>
+    </section>
+
+    <!-- ============ TRIAL HABIS (TERKUNCI — BAYAR UNTUK LANJUT) ============ -->
+    <!-- TIDAK auto-logout: sesi tetap ada, akun TIDAK dihapus, progres tetap
+         tersimpan. Begitu bayar + terkonfirmasi, aplikasi langsung terbuka
+         lagi tanpa login ulang (upgrade pakai token sesi). -->
+    <section class="screen" id="screen-trial-locked">
+      <div class="auth-card">
+        <div class="auth-hero">
+          <img class="logo-big" src="logo.png" alt="Logo Master CPNS">
+          <h2>Trial Kamu Habis</h2>
+          <p class="auth-sub">Bayar Rp59.000 untuk lanjut memakai Master CPNS.</p>
+        </div>
+        <p class="auth-note" style="text-align:center">Progres belajarmu tetap tersimpan. Akunmu tidak dihapus &mdash; hanya terkunci sampai bayar. Begitu pembayaran terkonfirmasi, aplikasi langsung terbuka lagi tanpa login ulang.</p>
+        <div class="auth-pay" id="lock-pay">
+          <label class="auth-label" for="lock-promo">Kode Promo (opsional)</label>
+          <div class="auth-promo-row">
+            <input class="auth-input" type="text" id="lock-promo" placeholder="Masukkan kode redeem" autocapitalize="characters" autocomplete="off">
+            <button class="btn secondary auth-promo-btn" type="button" id="btn-lock-promo">Pakai Kode</button>
+          </div>
+          <div class="auth-price" id="lock-price"><s>Rp99.000</s> <b>Rp59.000</b></div>
+          <div id="lock-pay-qr">
+            <img class="auth-qr" src="qris.png" alt="Kode QR pembayaran QRIS">
+            <p class="auth-qr-cap">Atas Nama: Rianto</p>
+            <p class="auth-note">Periksa kembali nominal sebelum mentransfer. Masukkan nominal secara manual sesuai harga di atas &mdash; angkanya tidak muncul otomatis saat memindai QR.</p>
+          </div>
+          <p class="auth-note" id="lock-pay-free" style="display:none">Tidak perlu membayar &mdash; kode GRATIS10 membuat pendaftaranmu gratis.</p>
+          <div id="lock-pay-proof">
+            <label class="auth-label" for="lock-proof">Upload Bukti Transfer (foto/screenshot, maks. 2 MB)</label>
+            <input class="auth-proof-input" type="file" id="lock-proof" accept="image/*">
+            <img id="lock-proof-preview" class="auth-proof-preview" style="display:none" alt="Pratinjau bukti transfer">
+            <p class="auth-note" id="lock-proof-note" style="display:none"></p>
+          </div>
+          <div class="auth-msg" id="lock-msg" style="display:none"></div>
+          <button class="btn auth-btn" type="button" id="btn-lock-declare">Saya Sudah Bayar</button>
+          <p class="auth-status" id="lock-pay-status"></p>
+          <button class="btn ghost auth-btn" type="button" id="btn-lock-check-pay">Cek Status Pembayaran</button>
+        </div>
+        <div style="height:12px"></div>
+        <button class="btn ghost auth-btn" type="button" id="btn-trial-locked-logout">Keluar</button>
+      </div>
+    </section>
+
+    <!-- ============ BERANDA ============ -->
+    <section class="screen active" id="screen-home">
+      <div class="hero">
+        <img class="logo-big" src="logo.png" alt="Logo Master CPNS">
+        <h2>Master CPNS</h2>
+        <p>Latihan soal SKD CPNS 2026 &mdash; TIU, TWK, dan TKP &mdash; seperti ujian CAT yang asli.</p>
+        <p class="muted">by Ardico Rianto</p>
+        <p class="title-badge" id="title-badge" style="display:none"></p>
+        <div class="trial-banner" id="trial-banner" style="display:none">
+          <span id="trial-banner-text">Trial Gratis</span>
+          <button class="btn secondary trial-banner-btn" type="button" id="btn-trial-banner-pay">Bayar Sekarang</button>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Selamat Datang di Master CPNS</h2>
+        <p>Selamat Datang di Master CPNS. Di sini Anda belajar lewat tingkatan. Satu tingkat berisi 30 soal dari satu sub-materi. Kerjakan sampai nilai Anda 100 &mdash; baru tingkat berikutnya terbuka. Soal yang salah bisa diperbaiki dari layar hasil ujian, sampai semuanya benar. Jika Anda menyelesaikan semua tingkatan dalam soal TIU, TWK, dan TKP, Anda akan melawan lima bos dari masing-masing soal TIU, TWK, dan TKP. Kalau Anda berhasil mengalahkan ketiganya sampai bos level lima, Anda akan mendapatkan gelar Master CPNS. Ada tiga cakupan: TIU, TWK, dan TKP. Masing-masing punya tingkat dan bos sendiri. Waktu tiap soal 1 menit.</p>
+      </div>
+      <p class="note">Aplikasi berjalan sepenuhnya offline. TIU/TWK: jawaban benar &times; 5. TKP: tiap jawaban dinilai 1&ndash;5 sesuai pilihan (maks 225 untuk simulasi CAT 45 soal, passing grade 166; bos TKP lulus hanya dengan nilai sempurna 150). Master CPNS &mdash; by Ardico Rianto.</p>
+    </section>
+
+    <!-- ============ PANDUAN ============ -->
+    <section class="screen" id="screen-guide">
+      <div id="guide-picker">
+        <div class="card">
+          <h2>Materi Pembelajaran</h2>
+          <p class="muted">Pilih materi per jalur. Setiap panduan berisi penjelasan mendalam per sub-materi, jenis soal, cara cepat, dan contoh soal beserta pembahasannya.</p>
+        </div>
+        <button class="menu-card" data-guide="guide.html">
+          <span class="mc-ico">&#128214;</span>
+          <span class="mc-text"><b>Materi TIU</b><small>Tes Intelegensi Umum — 10 sub-materi</small></span>
+          <span class="mc-arrow">&rsaquo;</span>
+        </button>
+        <button class="menu-card" data-guide="guide-twk.html">
+          <span class="mc-ico">&#127963;</span>
+          <span class="mc-text"><b>Materi TWK</b><small>Tes Wawasan Kebangsaan — 5 sub-materi</small></span>
+          <span class="mc-arrow">&rsaquo;</span>
+        </button>
+        <button class="menu-card" data-guide="guide-tkp.html">
+          <span class="mc-ico">&#129309;</span>
+          <span class="mc-text"><b>Materi TKP</b><small>Tes Karakteristik Pribadi — 6 sub-materi</small></span>
+          <span class="mc-arrow">&rsaquo;</span>
+        </button>
+      </div>
+      <div id="guide-view" class="hidden">
+        <button class="btn back" id="guide-back">&lsaquo; Kembali ke Materi Pembelajaran</button>
+        <div class="card guide" id="guide-content"></div>
+      </div>
+    </section>
+
+
+    <!-- ============ TENTANG ============ -->
+    <section class="screen" id="screen-about">
+      <div class="card about">
+        <img class="logo-big" src="logo.png" alt="Logo Master CPNS">
+        <h2>Master CPNS</h2>
+        <p class="muted">by Ardico Rianto</p>
+        <p class="muted">Versi 2.7 Web</p>
+        <p>Aplikasi latihan soal SKD CPNS 2026: TIU, TWK, dan TKP. Materi belajar per jenis soal, ujian level sampai nilai 100, dan level BOS bertingkat; gelar bertingkat untuk nilai sempurna di tiap bos.</p>
+        <p class="muted">Aplikasi berjalan sepenuhnya offline. TIU/TWK: jawaban benar &times; 5. TKP: tiap jawaban dinilai 1&ndash;5 sesuai pilihan.</p>
+        <p class="muted" id="about-email"></p>
+        <button class="btn danger-ghost" type="button" id="btn-logout">Keluar</button>
+      </div>
+    </section>
+
+    <!-- ============ JALUR PENGUASAAN ============ -->
+    <section class="screen" id="screen-mastery">
+      <div class="card">
+        <h2>Ujian</h2>
+        <p class="muted">Kerjakan satu tingkat sampai nilai 100 (semua soal benar). Tingkat berikutnya baru terbuka setelah yang sebelumnya lulus 100. Baca materi dulu, baru latihan.</p>
+        <p class="muted" id="mastery-progress"></p>
+        <button class="btn ghost" id="btn-mastery-track-back" style="display:none" type="button">&lsaquo; Kembali ke Pilihan Jalur</button>
+      </div>
+      <div id="mastery-list"></div>
+    </section>
+
+    <!-- ============ DETAIL SUB-MATERI (MATERI + LATIHAN) ============ -->
+    <section class="screen" id="screen-mastery-detail">
+      <div id="mastery-detail-content"></div>
+      <button class="btn" id="btn-start-mastery">Mulai Latihan Sub-Materi Ini</button>
+      <div style="height:12px"></div>
+      <button class="btn ghost" id="btn-mastery-back">Kembali ke Ujian</button>
+    </section>
+
+    <!-- ============ SOAL YANG SALAH ============ -->
+    <section class="screen" id="screen-wrongbank">
+      <div class="card">
+        <h2>Soal yang Salah</h2>
+        <p class="muted" id="wrongbank-total"></p>
+        <p class="muted">Soal yang salah dari latihan apa pun otomatis masuk ke sini. Kunci jawaban tidak pernah ditampilkan.</p>
+      </div>
+      <div id="wrongbank-list"></div>
+      <div style="height:12px"></div>
+      <button class="btn ghost" id="btn-wrongbank-back">Kembali ke Ujian</button>
+    </section>
+
+    <!-- ============ RIWAYAT LATIHAN ============ -->
+    <section class="screen" id="screen-riwayat">
+      <div class="card">
+        <h2>Riwayat Latihan</h2>
+        <p class="muted">Semua percobaan latihan, simulasi, dan bos — dikelompokkan per tingkat, lengkap dengan skor, tanggal, dan jam.</p>
+      </div>
+      <div id="riwayat-list"></div>
+      <div style="height:12px"></div>
+      <button class="btn ghost" id="btn-riwayat-back">Kembali ke Ujian</button>
+    </section>
+
+    <!-- ============ LATIHAN / HASIL ============ -->
+    <section class="screen" id="screen-exam">
+      <!-- Intro simulasi -->
+      <div id="exam-intro">
+        <div class="card">
+          <h2 id="exam-intro-title">BOS 1 &mdash; Tingkat 1</h2>
+          <p id="exam-intro-desc">30 soal baru dari semua sub-materi &middot; waktu 30 menit.<br>
+          TIU/TWK: benar = 5 poin &middot; salah/kosong = 0. TKP: tiap jawaban dinilai 1&ndash;5 sesuai pilihan. Gelar bos hanya untuk nilai sempurna 150 (30/30).</p>
+          <p class="muted" style="margin-top:8px">Jawaban bisa diubah selama waktu masih berjalan. Kalau waktu habis, jawaban otomatis dikumpulkan dan dinilai.</p>
+        </div>
+        <button class="btn" id="btn-begin">Mulai BOS 1 &mdash; 30 Soal Baru</button>
+        <div style="height:12px"></div>
+        <button class="btn ghost" id="btn-resume" style="display:none">Lanjutkan Simulasi</button>
+        <div style="height:12px"></div>
+        <button class="btn ghost" id="btn-exam-intro-back" type="button">Kembali ke Ujian</button>
+      </div>
+
+      <!-- Soal -->
+      <div id="exam-run" style="display:none">
+        <div class="exam-top">
+          <button class="grid-toggle" id="btn-exam-back" type="button" style="display:none">&lsaquo; Kembali</button>
+          <div>
+            <div class="qpos" id="qpos">Soal 1 dari 30</div>
+            <div class="qcat" id="qcat">Verbal &middot; Analogi Kata</div>
+          </div>
+          <button class="grid-toggle" id="btn-grid">Grid Nomor</button>
+        </div>
+        <div class="qgrid" id="qgrid"><div class="cells" id="qgrid-cells"></div></div>
+        <div class="qtext" id="qtext"></div>
+        <div id="qimg-wrap"><img id="qimg" alt="Gambar soal"></div>
+        <div id="opts"></div>
+        <!-- LJK Simulasi SKD: hanya tampil saat simulasi SKD berjalan -->
+        <div id="skd-ljk" class="skd-ljk" style="display:none"></div>
+      </div>
+
+      <!-- Hasil -->
+      <div id="exam-result" style="display:none">
+        <div class="card">
+          <div class="result-hero">
+            <div class="score"><span id="res-score">0</span><small> / <span id="res-max">150</span></small></div>
+            <div><span class="verdict pass" id="res-verdict">LULUS</span></div>
+            <div class="pg-note" id="res-note">Passing grade TIU: 80</div>
+          </div>
+          <div class="title-badge" id="res-title" style="display:none"></div>
+          <!-- Rincian nilai Simulasi SKD per materi (hanya untuk simulasi SKD) -->
+          <div id="skd-result" style="display:none"></div>
+          <div class="stat3">
+            <div class="stat good"><b id="res-correct">0</b><span>Benar</span></div>
+            <div class="stat bad"><b id="res-wrong">0</b><span>Salah</span></div>
+            <div class="stat neutral"><b id="res-blank">0</b><span>Belum dijawab</span></div>
+          </div>
+          <h2 style="font-size:17px;margin-bottom:8px">Soal yang salah</h2>
+          <div class="wrong-chips" id="res-wrong-list"></div>
+        </div>
+        <button class="btn" id="btn-retry">Ulangi simulasi dari awal</button>
+        <div style="height:12px"></div>
+        <button class="btn secondary" id="btn-repair">Perbaiki soal yang salah</button>
+        <div style="height:12px"></div>
+        <p class="muted" id="skd-submit-note" style="display:none"></p>
+        <div style="height:12px"></div>
+        <button class="btn ghost" id="btn-back-home">Kembali ke Beranda</button>
+      </div>
+    </section>
+
+    <!-- ============ RANKING SKD ============ -->
+    <section class="screen" id="screen-ranking">
+      <div class="card">
+        <h2>Ranking SKD</h2>
+        <p class="muted">Peringkat semua peserta Simulasi SKD (110 soal). Nilai dihitung server dari jawaban yang dikirim — bukan dari klaim aplikasi.</p>
+        <p class="muted">Nilai ranking memakai ujian pertama tiap peserta. Kalau mengulangi Simulasi SKD, nilai ulangan tidak dipakai dan tidak mengubah peringkat.</p>
+        <p class="muted" id="ranking-total"></p>
+        <p class="muted" id="ranking-note" style="display:none"></p>
+      </div>
+      <div id="ranking-list"></div>
+      <div style="height:12px"></div>
+      <button class="btn secondary" id="btn-ranking-refresh">Muat Ulang Ranking</button>
+      <div style="height:12px"></div>
+      <button class="btn ghost" id="btn-ranking-back">Kembali</button>
+    </section>
+
+    <!-- ============ PERAYAAN GELAR ============ -->
+    <section class="screen" id="screen-celebration">
+      <div class="card celebrate">
+        <div class="trophy">&#127942;</div>
+        <h2>SELAMAT!</h2>
+        <p class="cel-sub" id="cel-sub">Kamu mengalahkan level BOS dengan nilai sempurna!</p>
+        <div class="cel-title" id="cel-title">Master TIU</div>
+        <p class="cel-score">Nilai: <b id="cel-score">150 / 150</b></p>
+        <p class="muted">Gelar diraih pada <span id="cel-date"></span> dan tersimpan di aplikasi ini.</p>
+      </div>
+      <button class="btn" id="btn-cel-result">Lihat Hasil Lengkap</button>
+      <div style="height:12px"></div>
+      <button class="btn ghost" id="btn-cel-jalur">Kembali ke Ujian</button>
+    </section>
+
+  </main>
+
+  <!-- Footer ujian: posisi tetap, selalu sama di setiap soal -->
+  <div class="exam-footer" id="exam-footer">
+    <button class="btn secondary" id="btn-prev">&lsaquo; Sebelumnya</button>
+    <button class="btn secondary" id="btn-next">Berikutnya &rsaquo;</button>
+    <button class="btn finish" id="btn-finish">Selesai</button>
+  </div>
+
+  <!-- Tab bar: posisi tetap, selalu sama -->
+  <nav class="tabbar" id="tabbar">
+    <button data-tab="home" class="on"><span class="tic">&#8962;</span>Beranda</button>
+    <button data-tab="guide"><span class="tic">&#128214;</span>Materi</button>
+    <button data-tab="mastery"><span class="tic">&#127942;</span>Ujian</button>
+    <button data-tab="about"><span class="tic">&#8505;</span>Tentang</button>
+  </nav>
+</div>
+<script src="questions.js"></script>
+<script src="twk-questions.js"></script>
+<script src="tkp-questions.js"></script>
+<script src="skd-questions.js"></script>
+<script src="materi.js"></script>
+<script src="materi-twk-tkp.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
