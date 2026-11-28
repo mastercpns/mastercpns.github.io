@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" width="720" height="480">
+<rect x="0" y="0" width="720" height="480" fill="#ffffff"/>
+<g><polygon points="80.0,116.0 100.8,152.0 59.2,152.0" fill="#16324f" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/><polygon points="120.0,116.0 140.8,152.0 99.2,152.0" fill="#16324f" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/><polygon points="160.0,116.0 180.8,152.0 139.2,152.0" fill="#16324f" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/><polygon points="200.0,116.0 220.8,152.0 179.2,152.0" fill="#16324f" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/></g>
+<text x="265" y="168" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#16324f" text-anchor="middle">:</text>
+<g><text x="390" y="165" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#16324f" text-anchor="middle">12</text></g>
+<text x="560" y="272" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#16324f" text-anchor="middle">::</text>
+<g><polygon points="85.0,334.0 107.5,347.0 107.5,373.0 85.0,386.0 62.5,373.0 62.5,347.0" fill="#16324f" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/><polygon points="140.0,334.0 162.5,347.0 162.5,373.0 140.0,386.0 117.5,373.0 117.5,347.0" fill="#16324f" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/><polygon points="195.0,334.0 217.5,347.0 217.5,373.0 195.0,386.0 172.5,373.0 172.5,347.0" fill="#16324f" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/></g>
+<text x="265" y="388" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#16324f" text-anchor="middle">:</text>
+<g><rect x="328" y="298" width="124" height="124" fill="none" stroke="#16324f" stroke-width="3" stroke-dasharray="8 6" rx="6"/><text x="390" y="388" font-family="Arial, sans-serif" font-size="84" font-weight="bold" fill="#16324f" text-anchor="middle">?</text></g>
+</svg>

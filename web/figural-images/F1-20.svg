@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 484 120" width="484" height="120">
+<rect x="0" y="0" width="484" height="120" fill="white"/>
+<polygon points="68.0,28.0 76.2,48.7 98.4,50.1 81.3,64.3 86.8,85.9 68.0,74.0 49.2,85.9 54.7,64.3 37.6,50.1 59.8,48.7" fill="white" stroke="#14213d" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="120,52 132,60 120,68" fill="#8a8f98"/>
+<polygon points="184.0,28.0 191.0,47.9 211.7,44.0 198.0,60.0 211.7,76.0 191.0,72.1 184.0,92.0 177.0,72.1 156.3,76.0 170.0,60.0 156.3,44.0 177.0,47.9" fill="white" stroke="#14213d" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="236,52 248,60 236,68" fill="#8a8f98"/>
+<polygon points="300.0,28.0 306.1,47.4 325.0,40.0 313.6,56.9 331.2,67.1 310.9,68.7 313.9,88.8 300.0,74.0 286.1,88.8 289.1,68.7 268.8,67.1 286.4,56.9 275.0,40.0 293.9,47.4" fill="white" stroke="#14213d" stroke-width="3" stroke-linejoin="round"/>
+<rect x="382" y="26" width="68" height="68" fill="none" stroke="#8a8f98" stroke-width="2" stroke-dasharray="6 4" rx="6"/>
+<text x="416" y="73" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#8a8f98">?</text>
+</svg>

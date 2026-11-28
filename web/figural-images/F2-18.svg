@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" width="720" height="480">
+<rect x="0" y="0" width="720" height="480" fill="#ffffff"/>
+<g><path d="M 88.0,140.0 A 52.0,52.0 0 1,0 192.0,140.0 A 52.0,52.0 0 1,0 88.0,140.0 Z M 97.4,111.4 A 42.6,42.6 0 1,0 182.6,111.4 A 42.6,42.6 0 1,0 97.4,111.4 Z" fill="#16324f" fill-rule="evenodd"/></g>
+<text x="265" y="168" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#16324f" text-anchor="middle">:</text>
+<g><path d="M 338.0,140.0 A 52.0,52.0 0 1,0 442.0,140.0 A 52.0,52.0 0 1,0 338.0,140.0 Z M 347.4,168.6 A 42.6,42.6 0 1,0 432.6,168.6 A 42.6,42.6 0 1,0 347.4,168.6 Z" fill="#16324f" fill-rule="evenodd"/></g>
+<text x="560" y="272" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#16324f" text-anchor="middle">::</text>
+<g><polygon points="140.0,305.0 189.5,401.2 90.5,401.2" fill="#16324f" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/></g>
+<text x="265" y="388" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#16324f" text-anchor="middle">:</text>
+<g><rect x="328" y="298" width="124" height="124" fill="none" stroke="#16324f" stroke-width="3" stroke-dasharray="8 6" rx="6"/><text x="390" y="388" font-family="Arial, sans-serif" font-size="84" font-weight="bold" fill="#16324f" text-anchor="middle">?</text></g>
+</svg>
