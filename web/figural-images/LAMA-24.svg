@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 484 120" width="484" height="120">
+<rect x="0" y="0" width="484" height="120" fill="white"/>
+<polygon points="68.0,30.0 94.0,75.0 42.0,75.0" fill="white" stroke="#14213d" stroke-width="3" stroke-linejoin="round"/><circle cx="68.0" cy="62.0" r="4.5" fill="#14213d"/>
+<polygon points="120,52 132,60 120,68" fill="#8a8f98"/>
+<polygon points="184.0,30.0 210.0,75.0 158.0,75.0" fill="white" stroke="#14213d" stroke-width="3" stroke-linejoin="round"/><circle cx="176.5" cy="62.0" r="4.5" fill="#14213d"/><circle cx="191.5" cy="62.0" r="4.5" fill="#14213d"/>
+<polygon points="236,52 248,60 236,68" fill="#8a8f98"/>
+<polygon points="300.0,30.0 326.0,75.0 274.0,75.0" fill="white" stroke="#14213d" stroke-width="3" stroke-linejoin="round"/><circle cx="285.0" cy="62.0" r="4.5" fill="#14213d"/><circle cx="300.0" cy="62.0" r="4.5" fill="#14213d"/><circle cx="315.0" cy="62.0" r="4.5" fill="#14213d"/>
+<rect x="382" y="26" width="68" height="68" fill="none" stroke="#8a8f98" stroke-width="2" stroke-dasharray="6 4" rx="6"/>
+<text x="416" y="73" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#8a8f98">?</text>
+</svg>
