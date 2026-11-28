@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 270" width="500" height="270">
+<rect x="0" y="0" width="500" height="270" fill="white"/>
+<circle cx="90" cy="55" r="34" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="90.0" cy="55" r="5" fill="#16324f"/>
+<circle cx="250" cy="55" r="34" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="239.0" cy="55" r="5" fill="#16324f"/><circle cx="261.0" cy="55" r="5" fill="#16324f"/>
+<circle cx="410" cy="55" r="34" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="388.0" cy="55" r="5" fill="#16324f"/><circle cx="410.0" cy="55" r="5" fill="#16324f"/><circle cx="432.0" cy="55" r="5" fill="#16324f"/>
+<circle cx="50" cy="185" r="32" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="39.0" cy="185" r="5" fill="#16324f"/><circle cx="61.0" cy="185" r="5" fill="#16324f"/>
+<text x="50" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">A</text>
+<circle cx="150" cy="185" r="32" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="128.0" cy="185" r="5" fill="#16324f"/><circle cx="150.0" cy="185" r="5" fill="#16324f"/><circle cx="172.0" cy="185" r="5" fill="#16324f"/>
+<text x="150" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">B</text>
+<circle cx="250" cy="185" r="32" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="226.0" cy="185" r="5" fill="#16324f"/><circle cx="238.0" cy="185" r="5" fill="#16324f"/><circle cx="250.0" cy="185" r="5" fill="#16324f"/><circle cx="262.0" cy="185" r="5" fill="#16324f"/><circle cx="274.0" cy="185" r="5" fill="#16324f"/>
+<text x="250" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">C</text>
+<circle cx="350" cy="185" r="32" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="339" cy="174" r="5" fill="#16324f"/><circle cx="339" cy="196" r="5" fill="#16324f"/><circle cx="361" cy="174" r="5" fill="#16324f"/><circle cx="361" cy="196" r="5" fill="#16324f"/>
+<text x="350" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">D</text>
+<circle cx="450" cy="185" r="32" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="437" cy="174" r="5" fill="#16324f"/><circle cx="437" cy="196" r="5" fill="#16324f"/><circle cx="450" cy="174" r="5" fill="#16324f"/><circle cx="450" cy="196" r="5" fill="#16324f"/><circle cx="463" cy="174" r="5" fill="#16324f"/><circle cx="463" cy="196" r="5" fill="#16324f"/>
+<text x="450" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">E</text>
+</svg>

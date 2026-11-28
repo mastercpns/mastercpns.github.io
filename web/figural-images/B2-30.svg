@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="360" height="360">
+<rect x="0" y="0" width="360" height="360" fill="white"/>
+<circle cx="60.0" cy="60" r="11" fill="#16324f"/>
+<circle cx="165.0" cy="60" r="11" fill="#16324f"/>
+<circle cx="195.0" cy="60" r="11" fill="#16324f"/>
+<circle cx="270.0" cy="60" r="11" fill="#16324f"/>
+<circle cx="300.0" cy="60" r="11" fill="#16324f"/>
+<circle cx="330.0" cy="60" r="11" fill="#16324f"/>
+<circle cx="30.0" cy="180" r="11" fill="#16324f"/>
+<circle cx="60.0" cy="180" r="11" fill="#16324f"/>
+<circle cx="90.0" cy="180" r="11" fill="#16324f"/>
+<circle cx="165.0" cy="164" r="11" fill="#16324f"/>
+<circle cx="195.0" cy="164" r="11" fill="#16324f"/>
+<circle cx="165.0" cy="196" r="11" fill="#16324f"/>
+<circle cx="195.0" cy="196" r="11" fill="#16324f"/>
+<circle cx="270.0" cy="164" r="11" fill="#16324f"/>
+<circle cx="300.0" cy="164" r="11" fill="#16324f"/>
+<circle cx="330.0" cy="164" r="11" fill="#16324f"/>
+<circle cx="285.0" cy="196" r="11" fill="#16324f"/>
+<circle cx="315.0" cy="196" r="11" fill="#16324f"/>
+<circle cx="30.0" cy="284" r="11" fill="#16324f"/>
+<circle cx="60.0" cy="284" r="11" fill="#16324f"/>
+<circle cx="90.0" cy="284" r="11" fill="#16324f"/>
+<circle cx="45.0" cy="316" r="11" fill="#16324f"/>
+<circle cx="75.0" cy="316" r="11" fill="#16324f"/>
+<circle cx="150.0" cy="284" r="11" fill="#16324f"/>
+<circle cx="180.0" cy="284" r="11" fill="#16324f"/>
+<circle cx="210.0" cy="284" r="11" fill="#16324f"/>
+<circle cx="150.0" cy="316" r="11" fill="#16324f"/>
+<circle cx="180.0" cy="316" r="11" fill="#16324f"/>
+<circle cx="210.0" cy="316" r="11" fill="#16324f"/>
+<text x="300" y="326" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold" fill="#16324f" text-anchor="middle" dominant-baseline="central">?</text>
+<rect x="1" y="1" width="358" height="358" fill="none" stroke="#111111" stroke-width="2"/>
+<line x1="120" y1="0" x2="120" y2="360" stroke="#111111" stroke-width="1.5"/>
+<line x1="0" y1="120" x2="360" y2="120" stroke="#111111" stroke-width="1.5"/>
+<line x1="240" y1="0" x2="240" y2="360" stroke="#111111" stroke-width="1.5"/>
+<line x1="0" y1="240" x2="360" y2="240" stroke="#111111" stroke-width="1.5"/>
+</svg>

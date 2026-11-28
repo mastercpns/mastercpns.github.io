@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 135" width="500" height="135">
+<rect x="0" y="0" width="500" height="135" fill="white"/>
+<rect x="22" y="30" width="56" height="56" fill="white" stroke="#16324f" stroke-width="3"/>
+<rect x="118" y="38" width="64" height="40" fill="white" stroke="#16324f" stroke-width="3"/>
+<polygon points="270.0,85.5 230.0,85.5 217.7,47.5 250.0,24.0 282.3,47.5" fill="white" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="350,30 378,58 350,86 322,58" fill="white" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="432,38 468,38 482,78 418,78" fill="white" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/>
+<text x="50" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">A</text>
+<text x="150" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">B</text>
+<text x="250" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">C</text>
+<text x="350" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">D</text>
+<text x="450" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">E</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" width="720" height="480">
+<rect x="0" y="0" width="720" height="480" fill="white"/>
+<polygon points="92.0,92.0 188.0,92.0 188.0,188.0 92.0,188.0" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="120" cy="125" r="6" fill="#16324f"/><circle cx="140" cy="125" r="6" fill="#16324f"/><circle cx="160" cy="125" r="6" fill="#16324f"/><circle cx="120" cy="155" r="6" fill="#16324f"/><circle cx="140" cy="155" r="6" fill="#16324f"/><circle cx="160" cy="155" r="6" fill="#16324f"/>
+<text x="265" y="168" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#16324f" text-anchor="middle">:</text>
+<polygon points="390.0,82.0 440.2,111.0 440.2,169.0 390.0,198.0 339.8,169.0 339.8,111.0" fill="#16324f"/><circle cx="368" cy="140" r="6" fill="white"/><circle cx="390" cy="140" r="6" fill="white"/><circle cx="412" cy="140" r="6" fill="white"/>
+<text x="560" y="272" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#16324f" text-anchor="middle">::</text>
+<polygon points="140.0,302.0 190.2,389.0 89.8,389.0" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="128" cy="340" r="5" fill="#16324f"/><circle cx="140" cy="340" r="5" fill="#16324f"/><circle cx="152" cy="340" r="5" fill="#16324f"/><circle cx="130" cy="360" r="5" fill="#16324f"/><circle cx="140" cy="360" r="5" fill="#16324f"/><circle cx="150" cy="360" r="5" fill="#16324f"/><circle cx="136" cy="376" r="5" fill="#16324f"/><circle cx="144" cy="376" r="5" fill="#16324f"/>
+<text x="265" y="388" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#16324f" text-anchor="middle">:</text>
+<rect x="328" y="298" width="124" height="124" fill="none" stroke="#16324f" stroke-width="3" stroke-dasharray="8 6" rx="6"/><text x="390" y="388" font-family="Arial, sans-serif" font-size="84" font-weight="bold" fill="#16324f" text-anchor="middle">?</text>
+</svg>

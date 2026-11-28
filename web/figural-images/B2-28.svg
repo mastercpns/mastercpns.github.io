@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 135" width="500" height="135">
+<rect x="0" y="0" width="500" height="135" fill="white"/>
+<rect x="22" y="30" width="56" height="56" fill="#16324f"/>
+<text x="50" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">A</text>
+<rect x="118" y="38" width="64" height="40" fill="#16324f"/>
+<text x="150" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">B</text>
+<polygon points="250.0,26.0 277.7,74.0 222.3,74.0" fill="#16324f"/>
+<text x="250" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">C</text>
+<polygon points="318,78 382,78 370,38 330,38" fill="#16324f"/>
+<text x="350" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">D</text>
+<polygon points="450.0,26.0 482.0,58.0 450.0,90.0 418.0,58.0" fill="#16324f"/>
+<text x="450" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">E</text>
+</svg>

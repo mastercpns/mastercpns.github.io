@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 135" width="500" height="135">
+<rect x="0" y="0" width="500" height="135" fill="white"/>
+<polygon points="74.0,82.0 26.0,82.0 26.0,34.0 74.0,34.0" fill="white" stroke="#16324f" stroke-width="3"/><polygon points="50.0,42.0 63.9,66.0 36.1,66.0" fill="#16324f"/>
+<text x="50" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">A</text>
+<polygon points="150.0,24.0 182.3,47.5 170.0,85.5 130.0,85.5 117.7,47.5" fill="white" stroke="#16324f" stroke-width="3"/><polygon points="161.3,69.3 138.7,69.3 138.7,46.7 161.3,46.7" fill="#16324f"/>
+<text x="150" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">B</text>
+<polygon points="250.0,24.0 279.4,41.0 279.4,75.0 250.0,92.0 220.6,75.0 220.6,41.0" fill="white" stroke="#16324f" stroke-width="3"/><polygon points="250.0,42.0 265.2,53.1 259.4,70.9 240.6,70.9 234.8,53.1" fill="#16324f"/>
+<text x="250" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">C</text>
+<polygon points="350.0,24.0 379.4,75.0 320.6,75.0" fill="white" stroke="#16324f" stroke-width="3"/><polygon points="361.3,69.3 338.7,69.3 338.7,46.7 361.3,46.7" fill="#16324f"/>
+<text x="350" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">D</text>
+<polygon points="450.0,24.0 474.0,34.0 484.0,58.0 474.0,82.0 450.0,92.0 426.0,82.0 416.0,58.0 426.0,34.0" fill="white" stroke="#16324f" stroke-width="3"/><polygon points="450.0,42.0 462.5,48.0 465.6,61.6 456.9,72.4 443.1,72.4 434.4,61.6 437.5,48.0" fill="#16324f"/>
+<text x="450" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">E</text>
+</svg>

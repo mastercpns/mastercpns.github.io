@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 370" width="500" height="370">
+<rect x="0" y="0" width="500" height="370" fill="white"/>
+<polygon points="136.2,88.0 73.8,88.0 105.0,34.0" fill="white" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/>
+<line x1="175" y1="70" x2="271" y2="70" stroke="#16324f" stroke-width="4"/><polygon points="285,70 269,61 269,79" fill="#16324f"/>
+<polygon points="410.5,95.5 359.5,95.5 359.5,44.5 410.5,44.5" fill="white" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="126.2,209.1 83.8,209.1 70.8,168.9 105.0,144.0 139.2,168.9" fill="white" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/>
+<line x1="175" y1="180" x2="271" y2="180" stroke="#16324f" stroke-width="4"/><polygon points="285,180 269,171 269,189" fill="#16324f"/>
+<rect x="353" y="148" width="64" height="64" fill="none" stroke="#16324f" stroke-width="3" stroke-dasharray="8 6" rx="6"/><text x="385" y="199" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="bold" fill="#16324f" text-anchor="middle">?</text>
+<polygon points="64.0,329.2 36.0,329.2 22.0,305.0 36.0,280.8 64.0,280.8 78.0,305.0" fill="white" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/>
+<text x="50" y="355" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">A</text>
+<polygon points="166.5,327.7 133.5,327.7 123.4,296.3 150.0,277.0 176.6,296.3" fill="white" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/>
+<text x="150" y="355" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">B</text>
+<polygon points="262.1,330.2 237.9,330.2 222.7,311.2 228.1,287.5 250.0,277.0 271.9,287.5 277.3,311.2" fill="white" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/>
+<text x="250" y="355" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">C</text>
+<polygon points="369.8,324.8 330.2,324.8 330.2,285.2 369.8,285.2" fill="white" stroke="#16324f" stroke-width="3" stroke-linejoin="round"/>
+<text x="350" y="355" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">D</text>
+<circle cx="450" cy="305" r="28" fill="white" stroke="#16324f" stroke-width="3"/>
+<text x="450" y="355" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">E</text>
+</svg>

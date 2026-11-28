@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" width="720" height="480">
+<rect x="0" y="0" width="720" height="480" fill="white"/>
+<circle cx="140" cy="140" r="34" fill="white" stroke="#16324f" stroke-width="3"/><line x1="134.0" y1="118.0" x2="134.0" y2="162.0" stroke="#16324f" stroke-width="3"/><line x1="146.0" y1="118.0" x2="146.0" y2="162.0" stroke="#16324f" stroke-width="3"/>
+<text x="265" y="168" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#16324f" text-anchor="middle">:</text>
+<circle cx="390" cy="140" r="34" fill="white" stroke="#16324f" stroke-width="3"/><line x1="372.0" y1="118.0" x2="372.0" y2="162.0" stroke="#16324f" stroke-width="3"/><line x1="384.0" y1="118.0" x2="384.0" y2="162.0" stroke="#16324f" stroke-width="3"/><line x1="396.0" y1="118.0" x2="396.0" y2="162.0" stroke="#16324f" stroke-width="3"/><line x1="408.0" y1="118.0" x2="408.0" y2="162.0" stroke="#16324f" stroke-width="3"/>
+<text x="560" y="272" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#16324f" text-anchor="middle">::</text>
+<polygon points="164.0,384.0 116.0,384.0 116.0,336.0 164.0,336.0" fill="white" stroke="#16324f" stroke-width="3"/><line x1="128.0" y1="338.0" x2="128.0" y2="382.0" stroke="#16324f" stroke-width="3"/><line x1="140.0" y1="338.0" x2="140.0" y2="382.0" stroke="#16324f" stroke-width="3"/><line x1="152.0" y1="338.0" x2="152.0" y2="382.0" stroke="#16324f" stroke-width="3"/>
+<text x="265" y="388" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#16324f" text-anchor="middle">:</text>
+<rect x="328" y="298" width="124" height="124" fill="none" stroke="#16324f" stroke-width="3" stroke-dasharray="8 6" rx="6"/><text x="390" y="388" font-family="Arial, sans-serif" font-size="84" font-weight="bold" fill="#16324f" text-anchor="middle">?</text>
+</svg>

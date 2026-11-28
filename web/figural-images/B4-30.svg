@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="360" height="360">
+<rect x="0" y="0" width="360" height="360" fill="white"/>
+<circle cx="60.0" cy="60" r="11" fill="#16324f"/>
+<polygon points="165.0,49.0 174.5,65.5 155.5,65.5" fill="#16324f"/>
+<polygon points="195.0,49.0 204.5,65.5 185.5,65.5" fill="#16324f"/>
+<polygon points="277.8,67.8 262.2,67.8 262.2,52.2 277.8,52.2" fill="#16324f"/>
+<polygon points="307.8,67.8 292.2,67.8 292.2,52.2 307.8,52.2" fill="#16324f"/>
+<polygon points="337.8,67.8 322.2,67.8 322.2,52.2 337.8,52.2" fill="#16324f"/>
+<polygon points="45.0,169.0 54.5,185.5 35.5,185.5" fill="#16324f"/>
+<polygon points="75.0,169.0 84.5,185.5 65.5,185.5" fill="#16324f"/>
+<polygon points="157.8,187.8 142.2,187.8 142.2,172.2 157.8,172.2" fill="#16324f"/>
+<polygon points="187.8,187.8 172.2,187.8 172.2,172.2 187.8,172.2" fill="#16324f"/>
+<polygon points="217.8,187.8 202.2,187.8 202.2,172.2 217.8,172.2" fill="#16324f"/>
+<circle cx="300.0" cy="180" r="11" fill="#16324f"/>
+<polygon points="37.8,307.8 22.2,307.8 22.2,292.2 37.8,292.2" fill="#16324f"/>
+<polygon points="67.8,307.8 52.2,307.8 52.2,292.2 67.8,292.2" fill="#16324f"/>
+<polygon points="97.8,307.8 82.2,307.8 82.2,292.2 97.8,292.2" fill="#16324f"/>
+<circle cx="180.0" cy="300" r="11" fill="#16324f"/>
+<text x="300" y="326" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold" fill="#16324f" text-anchor="middle" dominant-baseline="central">?</text>
+<rect x="1" y="1" width="358" height="358" fill="none" stroke="#111111" stroke-width="2"/>
+<line x1="120" y1="0" x2="120" y2="360" stroke="#111111" stroke-width="1.5"/>
+<line x1="0" y1="120" x2="360" y2="120" stroke="#111111" stroke-width="1.5"/>
+<line x1="240" y1="0" x2="240" y2="360" stroke="#111111" stroke-width="1.5"/>
+<line x1="0" y1="240" x2="360" y2="240" stroke="#111111" stroke-width="1.5"/>
+</svg>

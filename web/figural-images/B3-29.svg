@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="360" height="360">
+<rect x="0" y="0" width="360" height="360" fill="white"/>
+<g transform="rotate(0 60.0 60)"><polygon points="60.0,47.0 65.5,57.7 62.6,57.7 62.6,73.0 57.4,73.0 57.4,57.7 54.5,57.7" fill="#16324f"/></g>
+<g transform="rotate(90 180.0 60)"><polygon points="180.0,47.0 185.5,57.7 182.6,57.7 182.6,73.0 177.4,73.0 177.4,57.7 174.5,57.7" fill="#16324f"/></g>
+<g transform="rotate(180 300.0 60)"><polygon points="300.0,47.0 305.5,57.7 302.6,57.7 302.6,73.0 297.4,73.0 297.4,57.7 294.5,57.7" fill="#16324f"/></g>
+<g transform="rotate(90 60.0 180)"><polygon points="60.0,167.0 65.5,177.7 62.6,177.7 62.6,193.0 57.4,193.0 57.4,177.7 54.5,177.7" fill="#16324f"/></g>
+<g transform="rotate(180 180.0 180)"><polygon points="180.0,167.0 185.5,177.7 182.6,177.7 182.6,193.0 177.4,193.0 177.4,177.7 174.5,177.7" fill="#16324f"/></g>
+<g transform="rotate(270 300.0 180)"><polygon points="300.0,167.0 305.5,177.7 302.6,177.7 302.6,193.0 297.4,193.0 297.4,177.7 294.5,177.7" fill="#16324f"/></g>
+<g transform="rotate(180 60.0 300)"><polygon points="60.0,287.0 65.5,297.7 62.6,297.7 62.6,313.0 57.4,313.0 57.4,297.7 54.5,297.7" fill="#16324f"/></g>
+<g transform="rotate(270 180.0 300)"><polygon points="180.0,287.0 185.5,297.7 182.6,297.7 182.6,313.0 177.4,313.0 177.4,297.7 174.5,297.7" fill="#16324f"/></g>
+<text x="300" y="326" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="bold" fill="#16324f" text-anchor="middle" dominant-baseline="central">?</text>
+<rect x="1" y="1" width="358" height="358" fill="none" stroke="#111111" stroke-width="2"/>
+<line x1="120" y1="0" x2="120" y2="360" stroke="#111111" stroke-width="1.5"/>
+<line x1="0" y1="120" x2="360" y2="120" stroke="#111111" stroke-width="1.5"/>
+<line x1="240" y1="0" x2="240" y2="360" stroke="#111111" stroke-width="1.5"/>
+<line x1="0" y1="240" x2="360" y2="240" stroke="#111111" stroke-width="1.5"/>
+</svg>

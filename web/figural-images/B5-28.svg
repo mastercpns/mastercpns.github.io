@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 135" width="500" height="135">
+<rect x="0" y="0" width="500" height="135" fill="white"/>
+<polygon points="50.0,24.0 79.4,75.0 20.6,75.0" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="42.0" cy="58" r="5" fill="#16324f"/><circle cx="58.0" cy="58" r="5" fill="#16324f"/>
+<text x="50" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">A</text>
+<polygon points="174.0,82.0 126.0,82.0 126.0,34.0 174.0,34.0" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="150" cy="48" r="5" fill="#16324f"/><circle cx="142.0" cy="68" r="5" fill="#16324f"/><circle cx="158.0" cy="68" r="5" fill="#16324f"/>
+<text x="150" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">B</text>
+<polygon points="250.0,24.0 282.3,47.5 270.0,85.5 230.0,85.5 217.7,47.5" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="242.0" cy="48" r="5" fill="#16324f"/><circle cx="258.0" cy="48" r="5" fill="#16324f"/><circle cx="242.0" cy="68" r="5" fill="#16324f"/><circle cx="258.0" cy="68" r="5" fill="#16324f"/>
+<text x="250" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">C</text>
+<polygon points="350.0,24.0 379.4,41.0 379.4,75.0 350.0,92.0 320.6,75.0 320.6,41.0" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="350" cy="42" r="5" fill="#16324f"/><circle cx="342.0" cy="57" r="5" fill="#16324f"/><circle cx="358.0" cy="57" r="5" fill="#16324f"/><circle cx="342.0" cy="72" r="5" fill="#16324f"/><circle cx="358.0" cy="72" r="5" fill="#16324f"/>
+<text x="350" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">D</text>
+<polygon points="450.0,24.0 476.6,36.8 483.1,65.6 464.8,88.6 435.2,88.6 416.9,65.6 423.4,36.8" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="450" cy="42" r="5" fill="#16324f"/><circle cx="442.0" cy="57" r="5" fill="#16324f"/><circle cx="458.0" cy="57" r="5" fill="#16324f"/><circle cx="442.0" cy="72" r="5" fill="#16324f"/><circle cx="458.0" cy="72" r="5" fill="#16324f"/>
+<text x="450" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333" text-anchor="middle">E</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 130" width="500" height="130">
+<rect x="0" y="0" width="500" height="130" fill="white"/>
+<polygon points="60.0,25.0 94.6,85.0 25.4,85.0" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="60" cy="65" r="5" fill="#16324f"/>
+<polygon points="146.0,41.0 194.0,41.0 194.0,89.0 146.0,89.0" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="161" cy="56" r="5" fill="#16324f"/><circle cx="179" cy="56" r="5" fill="#16324f"/><circle cx="161" cy="74" r="5" fill="#16324f"/><circle cx="179" cy="74" r="5" fill="#16324f"/>
+<polygon points="280.0,25.0 318.0,52.6 303.5,97.4 256.5,97.4 242.0,52.6" fill="white" stroke="#16324f" stroke-width="3"/><circle cx="268" cy="53" r="5" fill="#16324f"/><circle cx="280" cy="53" r="5" fill="#16324f"/><circle cx="292" cy="53" r="5" fill="#16324f"/><circle cx="268" cy="65" r="5" fill="#16324f"/><circle cx="280" cy="65" r="5" fill="#16324f"/><circle cx="292" cy="65" r="5" fill="#16324f"/><circle cx="268" cy="77" r="5" fill="#16324f"/><circle cx="280" cy="77" r="5" fill="#16324f"/><circle cx="292" cy="77" r="5" fill="#16324f"/>
+<rect x="396.0" y="31.0" width="68" height="68" fill="none" stroke="#8a8f98" stroke-width="2" stroke-dasharray="6 4" rx="6"/><text x="430" y="78" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#8a8f98">?</text>
+</svg>
